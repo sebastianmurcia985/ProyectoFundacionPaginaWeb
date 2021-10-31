@@ -1,6 +1,24 @@
-p{
+#contenido_index{
     padding-left: 200px;
     padding-right: 200px;
     text-align: justify;
+}
+
+#contenido_adopta{
+    font-size: 1.5rem;
+    text-align: justify;
+    padding-left: 100px;
+    padding-right: 100px;
+    background-color:  #9966FF;
+    color: whitesmoke;
+}
+
+#contenido_proceso{
+    font-size: 1.5rem;
+    text-align: justify;
+    padding-left: 100px;
+    padding-right: 100px;
+    background-color:#CC99FF;
+        color: whitesmoke;
 }
 
