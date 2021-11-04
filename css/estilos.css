@@ -19,6 +19,15 @@
     padding-left: 100px;
     padding-right: 100px;
     background-color:#CC99FF;
-        color: whitesmoke;
+    color: whitesmoke;
+}
+
+#contenido_apadrina{
+    font-size: 1.5rem;
+    text-align: justify;
+    padding-left: 100px;
+    padding-right: 100px;
+    background-color:#CC99FF;
+    color: whitesmoke;
 }
 
