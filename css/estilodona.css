@@ -1,0 +1,59 @@
+img {
+    max-width: 100%;
+    height: 200px;
+    margin-right: 5%; 
+    margin-left: 5%;
+}
+
+h2{
+    max-width: 100%;
+    margin-right: 10%; 
+    margin-left: 15%;
+    text-align: center;
+    color: black;
+}
+
+.donaBan{
+    width: 90%;
+    height: 100%;
+}
+
+.comidaDona{
+    background-color: #9966FF; 
+    max-width: 100%;
+    margin-right: 5%; 
+    margin-left: 5%;
+}
+
+.medicinaDona{
+    background-color: #99FFCC; 
+    max-width: 100%;
+    margin-right: 5%; 
+    margin-left: 5%;
+}
+
+.impleDona{
+    background-color: #CC99FF; 
+    max-width: 100%;
+    margin-right: 5%; 
+    margin-left: 5%;
+}
+
+.moneyDona{
+    background-color: #99CCFF; 
+    max-width: 100%;
+    margin-right: 5%; 
+    margin-left: 5%;
+}
+
+.divComida img{
+    float: right;
+}
+
+.divMedicamentos img{
+    float: left;
+}
+
+.divImplementos img{
+    float: right;
+}

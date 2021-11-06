@@ -1,3 +1,9 @@
+.adoptaban{
+    width: 90%;
+    height: 100%;
+}
+
+
 #contenido_index{
     padding-left: 200px;
     padding-right: 200px;
@@ -11,6 +17,9 @@
     padding-right: 100px;
     background-color:  #9966FF;
     color: whitesmoke;
+    max-width: 100%;
+    margin-right: 5%; 
+    margin-left: 5%;
 }
 
 #contenido_proceso{
@@ -20,6 +29,9 @@
     padding-right: 100px;
     background-color:#CC99FF;
     color: whitesmoke;
+    max-width: 100%;
+    margin-right: 5%; 
+    margin-left: 5%;
 }
 
 #contenido_apadrina{
@@ -29,5 +41,8 @@
     padding-right: 100px;
     background-color:#CC99FF;
     color: whitesmoke;
+    max-width: 100%;
+    margin-right: 5%; 
+    margin-left: 5%;
 }
 
