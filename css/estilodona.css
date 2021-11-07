@@ -57,3 +57,7 @@ h2{
 .divImplementos img{
     float: right;
 }
+
+.divMonetario img{
+    float: left;
+}
