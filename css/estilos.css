@@ -5,9 +5,10 @@
 
 
 #contenido_index{
-    padding-left: 200px;
-    padding-right: 200px;
+    padding-left: 150px;
+    padding-right: 150px;
     text-align: justify;
+    font-size: 20px;
 }
 
 #contenido_adopta{
@@ -16,11 +17,12 @@
     padding-left: 100px;
     padding-right: 100px;
     background-color:  #9966FF;
-    color: whitesmoke;
+    color: black;
     max-width: 100%;
     margin-right: 5%; 
     margin-left: 5%;
 }
+
 
 #contenido_proceso{
     font-size: 1.5rem;
@@ -40,9 +42,188 @@
     padding-left: 100px;
     padding-right: 100px;
     background-color:#CC99FF;
-    color: whitesmoke;
+    color: black;
     max-width: 100%;
     margin-right: 5%; 
     margin-left: 5%;
 }
 
+#perro_adopta1{
+    text-align: center;
+    padding-left: 10%;
+    max-width: 80%; 
+    font-size: 20px; 
+    float: right;
+    height: 250px;
+    width: 500px;
+}
+
+#perro_adopta2{
+    text-align: center;
+    padding-left: 10%;
+    max-width: 80%; 
+    font-size: 20px; 
+    float: right;
+    height: 200px;
+    width: 500px;
+}
+
+#perro_adopta3{
+    text-align: center;
+    padding-left: 10%;
+    max-width: 80%; 
+    font-size: 20px; 
+    float: right;
+    height: 250px;
+    width: 500px;
+}
+
+#perro_adopta4{
+    text-align: center;
+    padding-left: 10%;
+    max-width: 80%; 
+    font-size: 20px; 
+    float: right;
+    height: 250px;
+    width: 500px;
+}
+
+#perro_adopta5{
+    text-align: center;
+    padding-left: 10%;
+    max-width: 80%; 
+    font-size: 20px; 
+    float: right;
+    height: 250px;
+    width: 500px;
+}
+
+#perro_adopta6{
+    text-align: center;
+    padding-left: 10%;
+    max-width: 80%; 
+    font-size: 20px; 
+    float: right;
+    height: 250px;
+    width: 500px;
+}
+
+#perro_adopta7{
+    text-align: center;
+    padding-left: 10%;
+    max-width: 80%; 
+    font-size: 20px; 
+    float: right;
+    height: 250px;
+    width: 500px;
+}
+
+#perro_padrina1{
+    text-align: center;
+    padding-left: 10%;
+    max-width: 80%; 
+    font-size: 20px; 
+    float: right;
+    height: 250px;
+    width: 500px;
+}
+
+#perro_padrina1{
+    text-align: center;
+    padding-left: 10%;
+    max-width: 80%; 
+    font-size: 20px; 
+    float: right;
+    height: 250px;
+    width: 500px;
+}
+
+#perro_padrina2{
+    text-align: center;
+    padding-left: 10%;
+    max-width: 80%; 
+    font-size: 20px; 
+    float: right;
+    height: 250px;
+    width: 500px;
+}
+
+#perro_padrina3{
+    text-align: center;
+    padding-left: 10%;
+    max-width: 80%; 
+    font-size: 20px; 
+    float: right;
+    height: 250px;
+    width: 500px;
+}
+
+#perro_padrina4{
+    text-align: center;
+    padding-left: 10%;
+    max-width: 80%; 
+    font-size: 20px; 
+    float: right;
+    height: 250px;
+    width: 500px;
+}
+
+#perro_padrina5{
+    text-align: center;
+    padding-left: 10%;
+    max-width: 80%; 
+    font-size: 20px; 
+    float: right;
+    height: 250px;
+    width: 500px;
+}
+
+#perro_padrina6{
+    text-align: center;
+    padding-left: 10%;
+    max-width: 80%; 
+    font-size: 20px; 
+    float: right;
+    height: 250px;
+    width: 500px;
+}
+
+#perro_padrina7{
+    text-align: center;
+    padding-left: 10%;
+    max-width: 80%; 
+    font-size: 20px; 
+    float: right;
+    height: 300px;
+    width: 500px;
+}
+
+#perro_padrina8{
+    text-align: center;
+    padding-left: 10%;
+    max-width: 80%; 
+    font-size: 20px; 
+    float: right;
+    height: 250px;
+    width: 500px;
+}
+
+#perro_padrina9{
+    text-align: center;
+    padding-left: 10%;
+    max-width: 80%; 
+    font-size: 20px; 
+    float: right;
+    height: 250px;
+    width: 500px;
+}
+
+#perro_padrina10{
+    text-align: center;
+    padding-left: 10%;
+    max-width: 80%; 
+    font-size: 20px; 
+    float: right;
+    height: 250px;
+    width: 500px;
+}
