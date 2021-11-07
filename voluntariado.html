@@ -1,10 +1,201 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<meta charset="utf-8">
-	<title></title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="css/estilos.css">
+  	<link rel="stylesheet" href="style.css">
+  	<title>Formulario Registro</title>
+
+  <style>
+	* {
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+	}
+
+	.form-register {
+		width: 400px;
+		background: #24303c;
+		padding: 30px;
+		margin: auto;
+		margin-top: 100px;
+		border-radius: 4px;
+		font-family: 'calibri';
+		color: white;
+		box-shadow: 7px 13px 37px #000;
+	}
+
+	.form-register h4 {
+		font-size: 22px;
+		margin-bottom: 20px;
+	}
+
+	.controls {
+		width: 100%;
+		background: #24303c;
+		padding: 10px;
+		border-radius: 4px;
+		margin-bottom: 16px;
+		border: 1px solid #1f53c5;
+		font-family: 'calibri';
+		font-size: 18px;
+		color: white;
+	}
+
+	.form-register p {
+		height: 40px;
+		text-align: center;
+		font-size: 18px;
+		line-height: 40px;
+	}
+
+	.form-register a {
+		color: white;
+		text-decoration: none;
+	}
+
+	.form-register a:hover {
+		color: white;
+		text-decoration: underline;
+	}
+
+	.form-register .botons {
+		width: 100%;
+		background: #1f53c5;
+		border: none;
+		padding: 12px;
+		color: white;
+		margin: 16px 0;
+		font-size: 16px;
+	}
+
+	.donaBan {
+		background-color: #99CCFF; 
+		width: 90%;
+		height: 100%;
+	}
+  </style>
 </head>
 <body>
+	<div class="container">
+		<header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
 
+			<img src="img/Logo-fundacion.png" style="height: 190px;">
+
+			<a href="#" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
+				<svg class="bi me-4" width="40" height="32"><use xlink:href="#bootstrap"/></svg>
+				<span class="fs-2">Fundación Huellas de Mateo</span>
+			</a>
+	
+			<ul class="nav nav-pills">
+				<li class="nav-item"><a href="index.html" class="nav-link active" aria-current="page">Inicio</a></li>
+				<li class="nav-item"><a href="adopta.html" class="nav-link">Adopta</a></li>
+				<li class="nav-item"><a href="apadrina.html" class="nav-link">Apadrina</a></li>
+				<li class="nav-item"><a href="voluntariado.html" class="nav-link">Voluntariado</a></li>
+				<li class="nav-item"><a href="donaciones.html" class="nav-link">Donaciones</a></li>
+			</ul>
+		</header>
+	</div>
+
+	<div class="" style="text-align: center;">
+		<div>
+		<img class="donaBan" src="img/Banner-Volu.png">
+		</div>
+	</div>
+
+	<div style="background-color: #99CCFF; ">
+		<div style="text-align: center;">
+			<h4>¿Quieres ser voluntario en la fundación huellas de mateo?</h4>
+		</div>
+	
+		<div>
+			<p>
+				<center>
+					Si usted es un amante de los animales y quiere brindar su apoyo para la Fundación Huellas de Mateo en Villavicencio, puede hacer parte  del voluntariado social por la protección y bienestar de los caninos y felinos en estado de abandono.
+					Los voluntarios pueden acompañar labores de enseñanza y sensibilización con niños, jóvenes o familias; apoyar las campañas de adopción;  brindar un hogar de paso a animales decomisados o víctimas de maltrato;  hacer un servicio social en la fundación o ser parte de las brigadas de salud animal.
+				</center>
+			</p>
+		</div>
+	
+		<form action="https://formsubmit.co/muerte123q@gmail.com" method="post">
+			<section class="form-register">
+				<h4 style="text-align: center;">Formulario de Voluntariado</h4>
+				<input class="controls" type="text" name="name" id="name" placeholder="Ingrese su Nombre">
+				<input class="controls" type="text" name="lastname" id="lastname" placeholder="Ingrese su Apellido">
+				<input class="controls" type="email" name="email" id="email" placeholder="Ingrese su Correo">
+				<input class="controls" type="number" name="phone" id="phone" placeholder="Ingrese numero de contacto">
+				<button class="botons" type="submit">Enviar</button>
+			</section>
+		</form>
+
+		<br><br><br><br><br>
+	</div>
+	
+	
+
+	<footer class="bg-light text-center" style="text-align: center;">
+		<div class="container p-5">
+		<section class="">
+			<div class="row">
+			<div class="col-lg-5 col-md-6 mb-4 mb-md-0">
+				<h5 class="text-uppercase">¿QUIENES SOMOS?</h5>
+				<ul class="list-unstyled mb-0" style="text-align: left;">
+				<li>
+					Somos entidad sin ánimo de lucro constituida legalmente desde 2016. Buscando la prevención y el cuidado de caninos y felinos, nos ubicamos en Villavicencio/Meta.
+				</li>
+				</ul>
+			</div>
+
+			<div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+				<h5 class="text-uppercase">SIGUENOS EN REDES</h5>
+
+				<ul class="list-unstyled mb-0">
+				<li>
+					<a class="btn btn-primary btn-floating m-1" style="background-color: #3b5998" href="https://www.facebook.com/lashuellasdemateohdm" role="button"><i class="fab fa-facebook-f"></i></a>
+				
+					<a class="btn btn-primary btn-floating m-1" style="background-color: #ac2bac" href="https://www.instagram.com/fundacionhuellasdemateo/" role="button"><i class="fab fa-instagram"></i></a>
+				
+					<a class="btn btn-primary btn-floating m-1" style="background-color: #c4302b" href="https://www.youtube.com/channel/UCk96OUFImfCpBrJ18a4nueQ/videos" role="button"><i class="fab fa-youtube"></i></a>
+				</li>
+				</ul>
+			</div>
+
+			<div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+				<h5 class="text-uppercase">MAS INFORMACION</h5>
+
+				<ul class="list-unstyled mb-0" style="text-align: left;">
+				<li>
+					Fabian Hernando Ortiz Rojas
+				</li>
+				<li>
+					<b>Celular:</b> +57 3107744757
+				</li>
+				<li>
+					Vereda el Cocuy, Finca Doña Luz
+				</li>
+				<li>
+					Villavicencio ( Meta )
+				</li>
+				<li>
+					<b>Correo:</b> fundacionhuellasdemateo@gmail.com
+				</li>
+				</ul>
+			</div>
+			
+			</div>
+		</section>
+		</div>
+
+		<div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+		© 2020 Copyright: Fundación Huellas de Mateo
+		<a class="text-dark" href="https://mdbootstrap.com/"></a>
+		</div>
+	</footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
 </body>
 </html>
